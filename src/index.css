@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*     {padding: 0; margin: 0; text-align: center; user-select: none;}
+body    {background-color: #222; }
+#main     {padding: 0; margin: 0;}
+#primary  {margin: 0; position: absolute; top: 50%; left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
+#primary  {background-color: #000; height: 40vw; width: 80vw; color: #000; font-size: 0vw;}
+#middle     {background-color: #000; height: 33vw; width: 80vw; color: #000; font-size: 0vw; padding: 0; margin: 0;}
+#m-left       {background-color: #000; height: 33vw; width: 40vw; color: #000; font-size: 0vw; float: left;}
+#m-l-top        {background-color: #888; height: 03vw; width: 40vw; color: #000; font-size: 2vw; }
+#m-l-middle     {background-color: #777; height: 37vw; width: 40vw; color: #000; font-size: .5vw; overflow-y:auto; overflow-x: hidden; padding-bottom: .5vw;}
+#m-right      {background-color: #000; height: 33vw; width: 40vw; color: #000; font-size: 0vw; float: right;}
+#m-r-top        {background-color: #777; height: 03vw; width: 40vw; color: #000; font-size: 2vw; }
+#m-r-middle     {background-color: #666; height: 30vw; width: 40vw; color: #000; font-size: .5vw; overflow-y:auto; overflow-x: hidden; padding-bottom: .5vw;}
+#m-r-bottom     {background-color: #444; height: 07vw; width: 40vw; color: #000; font-size: 2vw; }
+
+.row            {background-color: #555; height: 05vw; width: 38vw; margin-top: .5vw; margin-left: .5vw; padding: .5vw;}
+.P-uni            {background-color: #666; height: 05vw; width: 05vw; color: #000; font-size: 3vw; line-height: 4.75vw; float: left;}
+.P-con1           {height: 05vw; width: 32vw; float: left; margin-left: 1vw;}
+.P-nam              {background-color: #666; height: 02vw; width: 06vw; color: #000; font-size: 1vw; line-height: 1.75vw; float: left;}
+.P-dem              {background-color: #666; height: 02vw; width: 05vw; color: #000; font-size: 1vw; border-width: .15vw; float: right;}
+.P-pro              {background-color: #666; height: 02vw; width: 05vw; color: #000; font-size: 1vw; border-width: .15vw; float: left; margin-left: 1vw;}
+.P-edi              {background-color: #666; height: 02vw; width: 05vw; color: #000; font-size: 1vw; border-width: .15vw; float: right; margin-right: 1vw;}
+.P-del              {background-color: #666; height: 02vw; width: 05vw; color: #000; font-size: 1vw; border-width: .15vw; float: right;}
+.P-con2           {height: 02vw; width: 32vw;}
+.P-des              {background-color: #666; height: 02vw; width: 32vw; color: #000; font-size: 1vw; line-height: 1.75vw; margin-top: 1vw;}
+
+#fform          {height: 05vw; width: 38vw; font-size: .8vw; margin-left: 1vw;}
+#form-l           {border-width: .15vw; height: 05vw; width: 17vw; font-size: .8vw; float: left; margin-top: 1.5vw;}
+#fnameb             {border-width: .15vw; height: 1.5vw; width: 06vw; font-size: .8vw; float: left; color: #eee;}
+#fname                {border-width: .15vw; height: 1.5vw; width: 10vw; font-size: .8vw; float: right;}
+#funicb             {border-width: .15vw; height: 1.5vw; width: 06vw; font-size: .8vw; float: left; color: #eee; margin-top: 1vw;}
+#funic                {border-width: .15vw; height: 1.5vw; width: 10vw; font-size: .8vw; float: right; margin-top: 1vw;}
+#form-r           {border-width: .15vw; height: 05vw; width: 20vw; font-size: .8vw; float: right; margin-top: 1vw;}
+#fmoveb             {border-width: .15vw; height: 01vw; width: 12vw; font-size: .8vw; float: left; color: #eee;}
+#fmove                {border-width: .15vw; height: 3.5vw; width: 12vw; font-size: .8vw; float: left; resize: none;}
+#finpu              {border-width: .15vw; height: 02vw; width: 07vw; font-size: .8vw; float: right; margin-top: 1.5vw;}
